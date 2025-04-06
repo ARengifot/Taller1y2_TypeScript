@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ES2020",
+        "outDir": "./dist",
+        "rootDir": "./",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node", // Asegura que las importaciones se resuelvan correctamente
+        "resolveJsonModule": true,  // Opcional, si necesitas importar JSON
+        "allowSyntheticDefaultImports": true // Opcional, para compatibilidad con ES6
+    },
+    "include": ["./**/*.ts"], // Ensure all .ts files are included
+    "exclude": ["node_modules", "./dist"]
+}
